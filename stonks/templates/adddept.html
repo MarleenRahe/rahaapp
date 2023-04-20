@@ -1,0 +1,21 @@
+<head>
+	<title>Add New Dept</title>
+</head>
+
+{% extends "header.html" %}
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+<!--Add dept-->
+<div class="container py-5">
+	<h1>Lisa Uus Võlg</h1>
+	<form method="POST">
+		{% csrf_token %}
+		{{ dept_form|crispy }}
+		<button class="btn btn-primary" type="submit">Kinnita Võlgnevus</button>
+	</form>
+</div>
+
+{% endblock %}

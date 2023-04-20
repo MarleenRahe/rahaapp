@@ -1,0 +1,6 @@
+Mati, -100
+Anna, -100
+Kati, 200
+Karl, -23666
+Oleg, 23000
+Martin, 666
